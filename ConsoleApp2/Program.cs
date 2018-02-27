@@ -10,7 +10,9 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello tunisia");
+            Models modle = new Models();
+            modle.Name = "hello Tunisia";
+            Console.WriteLine(modle.Name);
             Console.ReadLine();
         }
     }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    class Models
+    public class Models
     {
+        public string Name { get; set; }
+
     }
 }
